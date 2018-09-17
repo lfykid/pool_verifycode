@@ -37,8 +37,8 @@ def ruokuai(username, passwd, filename, app_id, app_key, codetype, retry=3):
 
 
 def main(file_name):
-    username = 'lfykid'
-    password = '147258lfy'
+    username = 'xxxxx'
+    password = 'xxxxxx'
     app_id = 112207
     app_key = 'edb33d89dfe3447db25d040ff97060d0'
 

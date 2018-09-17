@@ -94,8 +94,8 @@ def result(username, passwd, app_id, app_key, cid):
 #     return result
 
 def main(file_name):
-    username = 'wangjiangrong'
-    password = 'wjr_123'
+    username = 'xxxxx'
+    password = 'xxxxx'
     app_id = 5705
     app_key = 'c7a65ca7eb91045548d7aef35a05770d'
 
