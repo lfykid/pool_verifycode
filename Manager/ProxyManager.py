@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 from gevent import monkey; monkey.patch_all()
-from Util.GetConfig import GetConfig
-from Util.LogHandler import LogHandler
 from ProxyGetter import RuokuaiProxy
 from ProxyGetter import FeiFeiProxy
 from ProxyGetter import YundmProxy
