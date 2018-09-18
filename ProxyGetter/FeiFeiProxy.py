@@ -44,9 +44,9 @@ def predict(usr_id, usr_key, app_id, app_key,  pred_type, img_data, retry=3):
                 return vcode
         elif response.status_code != 200 and retry != 0:
              retry -= 1
-             predict(usr_id, usr_key, app_id, app_key, pred_type, img_data, retry)
+             return predict(usr_id, usr_key, app_id, app_key, pred_type, img_data, retry)
         else:
-            return
+            return 'error'
     except Exception, e:
         return 'error'
 
