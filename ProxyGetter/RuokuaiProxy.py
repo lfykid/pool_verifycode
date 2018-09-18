@@ -29,9 +29,9 @@ def ruokuai(username, passwd, filename, app_id, app_key, codetype, retry=3):
 
         elif response.status_code != 200 and retry != 0:
              retry -= 1
-             ruokuai(username, passwd, filename, app_id, app_key, codetype, retry)
+             return ruokuai(username, passwd, filename, app_id, app_key, codetype, retry)
         else:
-            return
+            return 'error'
     except Exception, e:
         return 'error'
 
